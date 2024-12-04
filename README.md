@@ -67,9 +67,6 @@ Questo progetto è stato sviluppato come parte di un'attività scolastica e util
 - La simulazione è stata realizzata per scopi didattici e non rappresenta un'applicazione industriale reale.
 - Il numero di immersioni e i tempi di ciclo possono essere modificati nel programma per adattare la simulazione a diverse esigenze.
 
-## Contatti
-
-Per ulteriori informazioni, contattare il docente o il team di sviluppo del progetto.
 
 ## Crediti
 
