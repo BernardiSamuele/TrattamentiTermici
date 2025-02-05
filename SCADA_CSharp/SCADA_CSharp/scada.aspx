@@ -38,6 +38,8 @@
                 <ContentTemplate>
                     <%-- Qui inserisco i controlli che devo ricaricare al timer.tick --%>
                     <img src="img/TrattamentiTermici.png"/>
+                    <img src="img/braccio.png" class="braccio"/>
+                    <img src="img/coperchio.png" class="coperchio"/>
                 </ContentTemplate>
             </asp:UpdatePanel>
             <br />
@@ -45,5 +47,17 @@
             <asp:Label ID="lblMessaggio" runat="server" Text="" ForeColor="Red"></asp:Label>
         </div>
     </form>
+    <style>
+        .braccio {
+            position: absolute;
+            left: 50px;
+            top: 440px;
+        }
+        .coperchio {
+            position: absolute;
+            left: 847px;
+            top: 830px;
+        }
+    </style>
 </body>
 </html>

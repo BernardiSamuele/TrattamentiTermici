@@ -89,6 +89,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\braccio.png" />
+    <Content Include="img\coperchio.png" />
     <Content Include="img\TrattamentiTermici.png" />
     <Content Include="scada.aspx" />
     <Content Include="Web.config" />

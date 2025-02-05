@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Timers;
 //
 using S7.Net;
 
@@ -77,6 +78,7 @@ namespace SCADA_CSharp
             {
                 lblMessaggio.Text = ex.Message;
             }
+            startGraphics();
         }
 
         protected void btnMan_Click(object sender, EventArgs e)
@@ -101,6 +103,7 @@ namespace SCADA_CSharp
             {
                 lblMessaggio.Text = ex.Message;
             }
+            startGraphics();
         }
 
         protected void btnAttesaStop_Click(object sender, EventArgs e)
@@ -113,6 +116,17 @@ namespace SCADA_CSharp
             {
                 lblMessaggio.Text = ex.Message;
             }
+            startGraphics();
+        }
+        void startGraphics()
+        {
+            
+            System.Timers.Timer timer = new System.Timers.Timer(1000);
+            timer.Elapsed += (Object source, ElapsedEventArgs e) =>
+            {
+
+            }
+
         }
 
         protected void btnStop_Click(object sender, EventArgs e)
